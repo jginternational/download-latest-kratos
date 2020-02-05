@@ -1,0 +1,10 @@
+name: 'Download latest kratos'
+description: 'Downloads the latest build of kratos' master branch'
+inputs:
+  install-path:  # path
+    description: 'installation path for kratos'
+    required: false
+    default: '/'
+runs:
+  using: 'node12'
+  main: 'index.js'
